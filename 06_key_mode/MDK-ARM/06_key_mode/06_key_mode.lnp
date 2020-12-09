@@ -1,0 +1,28 @@
+--cpu=Cortex-M4.fp --branchpatch=sdcomp-29491-629360
+"06_key_mode\startup_stm32l431xx.o"
+"06_key_mode\main.o"
+"06_key_mode\gpio.o"
+"06_key_mode\stm32l4xx_it.o"
+"06_key_mode\stm32l4xx_hal_msp.o"
+"06_key_mode\stm32l4xx_hal_tim.o"
+"06_key_mode\stm32l4xx_hal_tim_ex.o"
+"06_key_mode\stm32l4xx_hal.o"
+"06_key_mode\stm32l4xx_hal_i2c.o"
+"06_key_mode\stm32l4xx_hal_i2c_ex.o"
+"06_key_mode\stm32l4xx_hal_rcc.o"
+"06_key_mode\stm32l4xx_hal_rcc_ex.o"
+"06_key_mode\stm32l4xx_hal_flash.o"
+"06_key_mode\stm32l4xx_hal_flash_ex.o"
+"06_key_mode\stm32l4xx_hal_flash_ramfunc.o"
+"06_key_mode\stm32l4xx_hal_gpio.o"
+"06_key_mode\stm32l4xx_hal_dma.o"
+"06_key_mode\stm32l4xx_hal_dma_ex.o"
+"06_key_mode\stm32l4xx_hal_pwr.o"
+"06_key_mode\stm32l4xx_hal_pwr_ex.o"
+"06_key_mode\stm32l4xx_hal_cortex.o"
+"06_key_mode\stm32l4xx_hal_exti.o"
+"06_key_mode\system_stm32l4xx.o"
+--library_type=microlib --strict --scatter "06_key_mode\06_key_mode.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "06_key_mode.map" -o 06_key_mode\06_key_mode.axf

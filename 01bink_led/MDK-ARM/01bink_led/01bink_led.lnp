@@ -1,0 +1,28 @@
+--cpu=Cortex-M4.fp --branchpatch=sdcomp-29491-629360
+"01bink_led\startup_stm32l431xx.o"
+"01bink_led\main.o"
+"01bink_led\gpio.o"
+"01bink_led\stm32l4xx_it.o"
+"01bink_led\stm32l4xx_hal_msp.o"
+"01bink_led\stm32l4xx_hal_tim.o"
+"01bink_led\stm32l4xx_hal_tim_ex.o"
+"01bink_led\stm32l4xx_hal.o"
+"01bink_led\stm32l4xx_hal_i2c.o"
+"01bink_led\stm32l4xx_hal_i2c_ex.o"
+"01bink_led\stm32l4xx_hal_rcc.o"
+"01bink_led\stm32l4xx_hal_rcc_ex.o"
+"01bink_led\stm32l4xx_hal_flash.o"
+"01bink_led\stm32l4xx_hal_flash_ex.o"
+"01bink_led\stm32l4xx_hal_flash_ramfunc.o"
+"01bink_led\stm32l4xx_hal_gpio.o"
+"01bink_led\stm32l4xx_hal_dma.o"
+"01bink_led\stm32l4xx_hal_dma_ex.o"
+"01bink_led\stm32l4xx_hal_pwr.o"
+"01bink_led\stm32l4xx_hal_pwr_ex.o"
+"01bink_led\stm32l4xx_hal_cortex.o"
+"01bink_led\stm32l4xx_hal_exti.o"
+"01bink_led\system_stm32l4xx.o"
+--library_type=microlib --strict --scatter "01bink_led\01bink_led.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "01bink_led.map" -o 01bink_led\01bink_led.axf
