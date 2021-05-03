@@ -1,0 +1,88 @@
+{
+    "mcuChildExtension": {
+        "active": "false"
+    },
+    "compiler": {
+        "type": "GCC-Makefile",
+        "path": ".\\tools\\arm-none-eabi\\bin",
+        "make": {
+            "path": ".\\tools\\build\\bin\\make.exe",
+            "script": "Makefile",
+            "args": "-j 12"
+        },
+        "gdbPath": ".\\tools\\arm-none-eabi\\bin",
+        "prefix": "arm-none-eabi"
+    },
+    "output": {
+        "name": "",
+        "path": ""
+    },
+    "target": {
+        "UUID": "4356b3af-a6a9-44c0-82a8-f0bd62328547",
+        "flag": "0",
+        "factory": "ST",
+        "boardName": "STM32L431RC",
+        "productName": "STM32L431RC",
+        "core": "Cortex-M4",
+        "numberCores": 1,
+        "flashSize": "256KB",
+        "romAddress": "0x8000000",
+        "ramSize": "64KB",
+        "ramAddress": "0x20000000",
+        "restartAddress": "",
+        "featuresAddress": "",
+        "dataSheetAddress": "",
+        "operation": ""
+    },
+    "debugger": {
+        "type": "JLink",
+        "path": "D:\\LiteOS-Stdio-V1.45.7\\J-Link\\",
+        "jlink": {
+            "interface": "SWD",
+            "speed": "8000",
+            "path": "C:\\Program Files (x86)\\SEGGER\\JLink",
+            "port": "USB"
+        },
+        "interface": "SWD",
+        "initType": "launch",
+        "initFile": ".vscode\\attach.gdbinit",
+        "compileOS": "Windows",
+        "compilePath": null,
+        "gdbPath": ".\\tools\\arm-none-eabi\\bin",
+        "param": "-f interface/stlink-v2-1.cfg -f target/stm32f7x.cfg",
+        "interfacescript": [
+            "interface\\stlink-v2-1.cfg"
+        ],
+        "targetscript": [
+            "target\\stm32l4x.cfg"
+        ]
+    },
+    "burner": {
+        "type": "JLink",
+        "speed": "8000",
+        "flashAddress": "null",
+        "loadAddress": "0x08000000",
+        "interface": "SWD",
+        "path": "D:\\LiteOS-Stdio-V1.45.7\\J-Link\\",
+        "param": "-f interface/stlink-v2-1.cfg -f target/stm32f4x.cfg",
+        "erase": true,
+        "check": true,
+        "romsize": null,
+        "connection": "serial",
+        "interfacescript": [
+            "interface\\stlink-v2-1.cfg"
+        ],
+        "targetscript": [
+            "target\\stm32l4x.cfg"
+        ]
+    },
+    "serialPort": {
+        "port": "COM1",
+        "baudRate": "115200",
+        "dataBit": 8,
+        "stopBit": 1,
+        "parity": "None",
+        "flowControl": "None"
+    },
+    "component": {}
+}

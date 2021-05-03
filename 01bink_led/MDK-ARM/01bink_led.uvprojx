@@ -337,7 +337,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32L431xx,USE_HAL_DRIVER,STM32L431xx</Define>
               <Undefine></Undefine>
-              <IncludePath>../Inc;../Drivers/STM32L4xx_HAL_Driver/Inc;../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32L4xx/Include;../Drivers/CMSIS/Include</IncludePath>
+              <IncludePath>../Inc;../Drivers/STM32L4xx_HAL_Driver/Inc;../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32L4xx/Include;../Drivers/CMSIS/Include;..\LiteOS\arch\arm\arm-m\cortex-m4;..\LiteOS\arch\arm\arm-m\include;..\LiteOS\cmsis\1.0;..\LiteOS\cmsis\2.0;..\LiteOS\cmsis;..\LiteOS\kernel\include;..\LiteOS\kernel\base\include;..\LiteOS\kernel\extended\include;..\LiteOS\OS_CONFIG</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>

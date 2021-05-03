@@ -1,0 +1,8 @@
+{
+    "liteos-studio-debug.JLinkGDBServerPath": "D:\\LiteOS-Stdio-V1.45.7\\J-Link\\",
+    "liteos-studio-debug.armToolchainPath": ".\\tools\\arm-none-eabi\\bin",
+    "liteos-studio-debug.armToolchainPrefix": "arm-none-eabi",
+    "C_Cpp.default.compilerPath": "tools\\arm-none-eabi\\bin\\arm-none-eabi-gcc.exe",
+    "C_Cpp.default.cStandard": "c99",
+    "C_Cpp.default.intelliSenseMode": "gcc-arm"
+}
