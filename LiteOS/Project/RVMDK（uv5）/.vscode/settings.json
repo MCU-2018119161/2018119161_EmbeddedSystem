@@ -1,0 +1,23 @@
+{
+    "files.associations": {
+        "bsp_key.h": "c"
+    },
+    "eslint.codeAction.showDocumentation": {
+
+        "enable": true
+    }
+    "eslint.autoFixOnSave": true,
+"eslint.validate": [
+  "javascript",
+  "javascriptreact",
+  {
+    "language": "html",
+    "autoFix": true
+  },
+  {
+    "language": "vue",
+    "autoFix": true
+  }
+],
+}
+
