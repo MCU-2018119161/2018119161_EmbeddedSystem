@@ -1,3 +1,11 @@
+<!--
+ * @Descripttion: 
+ * @version: 
+ * @Author: congsir
+ * @Date: 2021-07-08 11:32:41
+ * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2021-07-22 11:31:10
+-->
 # 2018119161_EmbeddedSyste
 简要说明
 单片机学习，通过在github上传自己代码与学习内容。
@@ -21,5 +29,5 @@ keil。
  2、消息队列实验
  3、信号量实验。
  4、互斥锁实验。
- 5、优先级翻
+ 5、优先级翻转
  
