@@ -1,0 +1,12 @@
+.\stm32l431rxtx\sota.o: ..\..\..\components\ota\sota\sota.c
+.\stm32l431rxtx\sota.o: ..\..\..\include\sota/sota.h
+.\stm32l431rxtx\sota.o: D:\bearPi\mdk_code\ARM\ARMCC\Bin\..\include\stdint.h
+.\stm32l431rxtx\sota.o: ..\..\..\include\ota/ota_api.h
+.\stm32l431rxtx\sota.o: D:\bearPi\mdk_code\ARM\ARMCC\Bin\..\include\stdbool.h
+.\stm32l431rxtx\sota.o: D:\bearPi\mdk_code\ARM\ARMCC\Bin\..\include\stddef.h
+.\stm32l431rxtx\sota.o: ..\..\..\components\ota\sota\sota_hal.h
+.\stm32l431rxtx\sota.o: ..\..\..\components\ota\flag_operate\flag_manager.h
+.\stm32l431rxtx\sota.o: D:\bearPi\mdk_code\ARM\ARMCC\Bin\..\include\stdio.h
+.\stm32l431rxtx\sota.o: D:\bearPi\mdk_code\ARM\ARMCC\Bin\..\include\string.h
+.\stm32l431rxtx\sota.o: ..\..\..\include\ota/package.h
+.\stm32l431rxtx\sota.o: ..\..\..\components\ota\flag_operate\upgrade_flag.h

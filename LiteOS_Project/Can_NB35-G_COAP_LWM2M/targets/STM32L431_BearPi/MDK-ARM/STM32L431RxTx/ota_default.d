@@ -1,0 +1,11 @@
+.\stm32l431rxtx\ota_default.o: ..\..\..\components\ota\sota\ota_default.c
+.\stm32l431rxtx\ota_default.o: ..\..\..\components\ota\sota\ota.h
+.\stm32l431rxtx\ota_default.o: D:\bearPi\mdk_code\ARM\ARMCC\Bin\..\include\stdint.h
+.\stm32l431rxtx\ota_default.o: D:\bearPi\mdk_code\ARM\ARMCC\Bin\..\include\stdio.h
+.\stm32l431rxtx\ota_default.o: ..\..\..\components\ota\sota\ota_errno.h
+.\stm32l431rxtx\ota_default.o: ..\..\..\components\ota\utility\ota_crc.h
+.\stm32l431rxtx\ota_default.o: ..\..\..\components\ota\utility\ota_sha256.h
+.\stm32l431rxtx\ota_default.o: D:\bearPi\mdk_code\ARM\ARMCC\Bin\..\include\stddef.h
+.\stm32l431rxtx\ota_default.o: ..\..\..\components\ota\sota\ota_default.h
+.\stm32l431rxtx\ota_default.o: ..\Inc\board.h
+.\stm32l431rxtx\ota_default.o: D:\bearPi\mdk_code\ARM\ARMCC\Bin\..\include\string.h
